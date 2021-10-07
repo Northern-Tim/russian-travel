@@ -1,0 +1,8 @@
+.places {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 80px;
+  max-height: 3392px;
+  margin-bottom: 92px;
+}

@@ -1,0 +1,9 @@
+.conclusion {
+  display: grid;
+  grid-template-columns: 1184px;
+  grid-template-rows: 740px;
+  align-items: center;
+  justify-items: center;
+  max-width: 1184px;
+  margin: auto;
+}

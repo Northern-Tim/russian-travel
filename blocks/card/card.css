@@ -1,0 +1,8 @@
+.card {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: max-content 460px;
+  max-height: 660px;
+  margin: auto;
+  gap: 48px 40px;
+}
