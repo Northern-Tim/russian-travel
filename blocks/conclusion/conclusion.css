@@ -1,7 +1,7 @@
 .conclusion {
   display: grid;
-  grid-template-columns: 1184px;
-  grid-template-rows: 740px;
+  grid-template-columns: fit-content(1184px);
+  grid-template-rows: fit-content(740px);
   align-items: center;
   justify-items: center;
   max-width: 1184px;

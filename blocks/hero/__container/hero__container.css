@@ -1,0 +1,9 @@
+.hero__container {
+  max-width: 984px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .hero__container {
+    max-width: 928px;
+  }
+}

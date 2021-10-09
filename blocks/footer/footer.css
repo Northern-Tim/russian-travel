@@ -1,9 +1,19 @@
 .footer {
-  box-sizing: border-box;
   margin: 92px auto 24px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 92%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer {
+      margin: 92px auto 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 92%;
+      }
   }

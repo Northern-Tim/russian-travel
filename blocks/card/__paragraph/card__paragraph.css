@@ -1,3 +1,11 @@
 .card__paragraph {
+  margin: 0;
+}
+
+.card__paragraph:nth-child(odd) {
   margin: 0 0 26px;
+}
+
+.card__paragraph:last-child {
+  margin: 0;
 }

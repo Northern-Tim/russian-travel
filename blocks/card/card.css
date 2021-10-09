@@ -1,8 +1,27 @@
 .card {
   display: grid;
-  grid-template-columns: 460px 484px;
-  grid-template-rows: max-content 460px;
-  max-height: 660px;
+  grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+  grid-template-rows: max-content max-content;
   margin: auto;
   gap: 48px 40px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .card {
+    gap: 48px 40px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5, max-content);
+    gap: 32px;
+  }
 }

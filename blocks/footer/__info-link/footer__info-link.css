@@ -6,3 +6,19 @@
   text-decoration-line: none;
   margin-right: 18px;
 }
+
+.footer__info-link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__info-link {
+    margin: 0 0 32px;
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .footer__info-link:last-child {
+    margin: 0;
+  }
+}
