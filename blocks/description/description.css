@@ -1,6 +1,6 @@
 .description {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   grid-template-rows: max-content;
   max-width: 984px;
   margin: 92px auto 92px;
