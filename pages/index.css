@@ -1,10 +1,11 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/language-switch/language-switch.css);
 @import url(../blocks/language-switch/__name/language-switch__name.css);
-@import url(../blocks/language-switch/__name/_mode/language-switch__name_mode_active.css);
+@import url(../blocks/language-switch/__name/_active/language-switch__name_active.css);
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero/__container/hero__container.css);
 @import url(../blocks/hero/__title/hero__title.css);
@@ -14,11 +15,10 @@
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__container/description__container.css);
 @import url(../blocks/description/__title/description__title.css);
-@import url(../blocks/description/__subtitle/description__subtitle.css);
 @import url(../blocks/description/__paragraph/description__paragraph.css);
 @import url(../blocks/description/__list/description__list.css);
 @import url(../blocks/description/__list-item/description__list-item.css);
-@import url(../blocks/span-accent/span-accent.css);
+@import url(../blocks/description/__fact-numbers/description__fact-numbers.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 @import url(../blocks/places/places.css);
@@ -34,18 +34,9 @@
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-
-
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__info-list/footer__info-list.css);
+@import url(../blocks/footer/__info-item/footer__info-item.css);
 @import url(../blocks/footer/__info-link/footer__info-link.css);
 @import url(../blocks/footer/__author/footer__author.css);
-
-
-
-@import url(../blocks/conclusion/conclusion.css);
-@import url(../blocks/conclusion/__text/conclusion__text.css);
-@import url(../blocks/conclusion/__title/conclusion__title.css);
-@import url(../blocks/conclusion/__subtitle/conclusion__subtitle.css);
-@import url(../blocks/conclusion/__image/conclusion__image.css);
-@import url(../blocks/black-cover/black-cover.css);

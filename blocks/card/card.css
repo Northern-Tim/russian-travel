@@ -6,22 +6,22 @@
   gap: 48px 40px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .card {
-    gap: 48px 40px;
+    gap: 48px 32px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .card {
     gap: 48px 28px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .card {
     grid-template-columns: 100%;
-    grid-template-rows: repeat(5, max-content);
+    grid-template-rows: repeat(4, max-content);
     gap: 32px;
   }
 }
